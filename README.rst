@@ -1,5 +1,5 @@
 ========================================
-outlyer-cli: Outyler command line utility
+outlyer-cli: Outlyer command line utility
 ========================================
 
 

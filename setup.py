@@ -34,7 +34,7 @@ if __name__ == "__main__":
             'click==6.7'
         ],
         entry_points={
-            'console_scripts': ['outyler=outlyer.cli:main'],
+            'console_scripts': ['outlyer=outlyer.cli:main'],
         },
         packages=find_packages(exclude=['tests']),
     )
