@@ -1,5 +1,6 @@
 import click
 from outlyer import __version__, __title__
+from outlyer import api
 
 
 @click.group()
@@ -22,16 +23,20 @@ def agent(ctx):
 @agent.command("list")
 @click.pass_context
 def agent_list(ctx):
-    click.echo('list agents %s' % ctx.obj['DEBUG'])
+    agents = api.list_agents()
+    click.echo('list agents %s' % agents)
 
 
 @agent.command("get")
 @click.pass_context
 @click.argument('name')
 def agent_get(ctx, name):
-    click.echo('get agent: %s' % name)
+    agent = api.get_agent(name)
+    click.echo('get agent: %s' % agent)
 
 
-
+############################################################
+# ENTRY POINT
+############################################################
 def main():
     cli(obj={})
