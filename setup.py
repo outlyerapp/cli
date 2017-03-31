@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
-
+from outlyer import __version__, __title__
 
 if __name__ == "__main__":
     setup(
-        name="outlyer-cli",
+        name=__title__,
         description = 'Outlyer Command line Utility',
-        version='0.0.1',
+        version=__version__,
         license='MIT',
         url='https://github.com/outlyerapp/cli',
         download_url='https://github.com/outlyerapp/cli/archive/0.1.tar.gz',

@@ -1,4 +1,4 @@
 ========================================
-outlyer-cli: Ouyler command line utility
+outlyer-cli: Outyler command line utility
 ========================================
 

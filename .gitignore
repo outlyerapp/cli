@@ -2,4 +2,4 @@ dist/
 27-sdist/
 27-wheel/
 build/
-outlyer.cli.egg-info
+outlyer_cli.egg-info
