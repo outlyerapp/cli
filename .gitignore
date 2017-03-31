@@ -3,4 +3,5 @@ dist/
 27-wheel/
 build/
 outlyer_cli.egg-info
+Outlyer_CLI.egg-info
 *.pyc
