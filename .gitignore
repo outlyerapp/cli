@@ -5,3 +5,4 @@ build/
 outlyer_cli.egg-info
 Outlyer_CLI.egg-info
 *.pyc
+/.conf
